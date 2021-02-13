@@ -1,0 +1,129 @@
+
+.banner_section{
+    height: 250px;
+    border: 2px solid blue;
+    background-image: url(../img/banner4.jpg);
+    background-size: cover;
+    
+}
+
+#banner_text{
+    text-align: center;
+    height: 60px;
+    width: 300px;
+    box-shadow: ;
+    background-color: aliceblue;
+    margin-left: 38%;
+    margin-top: 8.5%;
+    color: indigo;
+}
+nav{
+    columns: 4;
+    background-color: yellowgreen;
+    text-align: center;
+    opacity: 1;
+    border: 3px solid purple;
+/*    border-radius: 7px;*/
+    column-gap: 2px;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.li:hover{
+    background-color: bisque;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.rb_style:hover {
+    background-color: blue;
+    color: white;
+}
+
+.content_section{
+    width: 100%;
+    height: 1300px;
+/*    border: 1px solid purple;*/
+}
+
+.left_bar{
+    width: 80%;
+    height: 100%;
+    float: left;
+/*    background-color: lightsteelblue;*/
+    
+}
+
+#site_bar{
+    box-sizing: border-box;
+    width: 200px;
+    height: 450px;
+    background-color: dodgerblue;
+    border: 3px solid blue;
+/*    border-radius: 8px;*/
+}
+
+#background{
+    background-image: url("../img/bg02.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img_1{
+    width: 150px;
+    height: 150px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    margin-left: 21px;
+/*    margin-left: 60px;*/
+    margin-top: 5px
+}
+
+.hey{
+/*    margin-left: 335px;*/
+    height: 190px;
+    width: 195px;
+    
+/*    border: 1px solid blue;*/
+}
+
+.hey:hover{
+    background-color: lavender;
+}
+
+.right_bar{
+    width: 20%;
+    height: 330px;
+    float: left;
+    margin-top: 10px;
+/*
+    background-color: green;
+    opacity: 1;
+*/
+/*    border-radius: 15px;*/
+/*    border: 1px solid purple;*/
+}
+
+.rb_style{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 6px;
+}
+
+.footer_section{
+    height: 70px;
+    width: 100%;
+    background-color: dimgray;
+/*    border: 2px solid purple;*/
+}
